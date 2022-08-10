@@ -66,4 +66,7 @@ The phase resolved polarization for precessing magnetars
 
 The phase averaged polarization for precessing magnetars
 
+### RVM_modulations
+
+The modulations of PA
 
