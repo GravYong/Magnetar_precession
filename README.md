@@ -10,6 +10,12 @@ The dynamics under the near-field torque
 
 ### near-field.ipynb
 
-The plot in the paper 
+The figures in the paper 
 
+### far-field.nb
 
+The dynamics under the far-field torque
+
+### far-field.ipynb
+
+The figures in the paper
