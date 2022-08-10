@@ -1,1 +1,0 @@
-# Magnetar_precession
