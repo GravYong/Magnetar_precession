@@ -58,6 +58,12 @@ The vacuum birefringence effects
 
 Solving the radiative transfer equation 
 
+### Phase-resolved.ipynb
 
+The phase resolved polarization for precessing magnetars
+
+### Phase-averaged.ipynb
+
+The phase averaged polarization for precessing magnetars
 
 
