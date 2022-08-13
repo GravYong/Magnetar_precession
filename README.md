@@ -2,7 +2,7 @@
 
 ### free_precession.nb
 
-The analytical and numerical solution of the free precession of triaxial NS
+The analytical and numerical solutions of the free precession of triaxial NS
 
 ### near-field.nb
 
