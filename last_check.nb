@@ -1,0 +1,154 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4940,        146]
+NotebookOptionsPosition[      3780,        111]
+NotebookOutlinePosition[      4643,        141]
+CellTagsIndexPosition[      4600,        138]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["check the calculations", "Title",
+ CellChangeTimes->{{3.868088065091681*^9, 3.868088069489513*^9}, {
+  3.873282941821323*^9, 3.873282947311545*^9}},
+ TextAlignment->Center,ExpressionUUID->"a0ebc943-b907-4a04-9cf2-68f464e55336"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"P", "=", "5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"G", "=", 
+   RowBox[{"6.674299999999999", "*", 
+    SuperscriptBox["10", 
+     RowBox[{"-", "8"}]]}]}], ";", 
+  RowBox[{"c", "=", "29979245800.0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Ms", "=", 
+   RowBox[{"1.988409870698051", "*", 
+    SuperscriptBox["10", "33"]}]}], ";", 
+  RowBox[{"km", "=", 
+   SuperscriptBox["10", "5"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]", "=", 
+   RowBox[{"2", "*", 
+    RowBox[{"\[Pi]", "/", "P"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k", "=", "0.6"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"M", "=", 
+   RowBox[{"1.4", "*", "Ms"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"R", "=", 
+   RowBox[{"10.0", "*", "km"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B", "=", 
+   RowBox[{"5", "*", 
+    SuperscriptBox["10", "14"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Alpha]", "=", 
+   FractionBox["\[Pi]", "4"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Mu]", "=", 
+   RowBox[{
+    RowBox[{"1", "/", "2"}], " ", "*", " ", "B", " ", "*", " ", 
+    SuperscriptBox["R", "3"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"I0", "=", 
+   RowBox[{
+    RowBox[{"2", "/", "5"}], " ", "*", " ", "M", " ", "*", " ", 
+    SuperscriptBox["R", "2"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"yr", "=", 
+   RowBox[{"24", "*", "3600", "*", "365"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Tau]", "=", 
+   RowBox[{"3", "*", 
+    SuperscriptBox["c", "3"], "*", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"I0", "/", "2"}], "/", 
+      SuperscriptBox["\[Mu]", "2"]}], "/", 
+     SuperscriptBox["\[Omega]", "2"]}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.873282981545672*^9, 3.873283125418397*^9}, {
+  3.873283222145051*^9, 3.8732832382156153`*^9}, {3.873283290759417*^9, 
+  3.87328333266155*^9}, {3.873283470488535*^9, 3.873283473270103*^9}},
+ CellLabel->"In[85]:=",ExpressionUUID->"d21137f0-213e-4574-991a-cd10e05a3ed0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1", "/", "\[Tau]"}], "*", 
+  RowBox[{"(", 
+   SuperscriptBox[
+    RowBox[{"Sin", "[", "\[Alpha]", "]"}], "2"], ")"}], "*", "8", "*", 
+  "yr"}]], "Input",
+ CellChangeTimes->{{3.873283060633731*^9, 3.8732831405219917`*^9}, {
+  3.8732831875317993`*^9, 3.873283220150725*^9}, {3.873283270378208*^9, 
+  3.87328332390243*^9}, {3.873283386125025*^9, 3.873283453494821*^9}, {
+  3.8732834886789427`*^9, 3.873283491253951*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"76e1886a-9455-46c0-971f-ba53d6a1b042"],
+
+Cell[BoxData["0.0002766425877821782`"], "Output",
+ CellChangeTimes->{
+  3.87328314128955*^9, {3.8732832823530197`*^9, 3.8732833113008842`*^9}, {
+   3.873283412345448*^9, 3.873283493075554*^9}},
+ CellLabel->"Out[99]=",ExpressionUUID->"8a764720-2676-40ed-869e-f30daa368c4d"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1440, 805},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) \
+(2020\:5e743\:670813\:65e5)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"Report"}, "StandardReport.nb", CharacterEncoding -> 
+       "UTF-8"]]], 
+   Cell[
+    StyleData["Input"], FontSize -> 24], 
+   Cell[
+    StyleData["Output"], FontSize -> 24], 
+   Cell[
+    StyleData["Text"], FontSize -> 24]}, Visible -> False, FrontEndVersion -> 
+  "12.1 for Mac OS X x86 (64-bit) (2020\:5e743\:670813\:65e5)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"a04c7f71-3ce3-4855-a8a5-55c98de14f3c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 233, 3, 97, "Title",ExpressionUUID->"a0ebc943-b907-4a04-9cf2-68f464e55336"],
+Cell[816, 27, 2105, 59, 539, "Input",ExpressionUUID->"d21137f0-213e-4574-991a-cd10e05a3ed0"],
+Cell[CellGroupData[{
+Cell[2946, 90, 531, 11, 60, "Input",ExpressionUUID->"76e1886a-9455-46c0-971f-ba53d6a1b042"],
+Cell[3480, 103, 272, 4, 55, "Output",ExpressionUUID->"8a764720-2676-40ed-869e-f30daa368c4d"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
